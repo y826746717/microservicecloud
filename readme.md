@@ -1,0 +1,4 @@
+
+demo简介：
+以Dept部门模块做一个微服务通用案例
+Consumer消费者（Client）通过REST调用Provider提供者（Server）提供的服务
