@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>microservicecloud-api</module>
+        <module>micorservicecloud-provider-dept-8071</module>
+        <module>microservicecloud-consumer-dept-80</module>
     </modules>
 
     <properties>
