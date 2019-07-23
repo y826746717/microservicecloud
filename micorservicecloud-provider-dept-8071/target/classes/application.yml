@@ -22,3 +22,18 @@ spring:
       max-total: 5                                          # 最大连接数
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
 
+
+#添加了这个配置(eureka)这个项目就变成了eureka的客户端
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7081/eureka
+  instance:
+    instance-id : microservicecloud-dept:8071
+    prefer-ip-address: true
+info:
+  app.name: yang-microservicecloud
+  company.name: www.yang.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+

@@ -9,6 +9,7 @@
         <module name="micorservicecloudproviderdept8071" />
         <module name="microservicecloudapi" />
         <module name="microservicecloudconsumerdept80" />
+        <module name="microservicecloudeureka7081" />
       </profile>
     </annotationProcessing>
   </component>
