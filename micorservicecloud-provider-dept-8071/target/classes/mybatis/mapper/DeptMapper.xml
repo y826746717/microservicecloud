@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.yang.springcloud.dao.DeptDao">
+<mapper namespace="com.yang.springcloud8071.dao.DeptDao">
 
 	<select id="findById" resultType="com.yang.springcloud.entities.Dept" parameterType="java.lang.Long">
 		select deptno,dname,db_source from dept where deptno=#{deptno};

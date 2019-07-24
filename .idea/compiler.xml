@@ -7,9 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="micorservicecloudproviderdept8071" />
+        <module name="micorservicecloudproviderdept8072" />
+        <module name="micorservicecloudproviderdept8073" />
         <module name="microservicecloudapi" />
         <module name="microservicecloudconsumerdept80" />
         <module name="microservicecloudeureka7081" />
+        <module name="microservicecloudeureka7082" />
+        <module name="microservicecloudeureka7083" />
       </profile>
     </annotationProcessing>
   </component>

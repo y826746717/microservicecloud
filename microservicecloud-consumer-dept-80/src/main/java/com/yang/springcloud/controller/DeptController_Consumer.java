@@ -13,9 +13,10 @@ import java.util.List;
 public class DeptController_Consumer {
 
     // 在业务没有落地的时候，我们只能使用本地的环境进行测试
-
-    private static final String REST_URL_PREFIX = "http://localhost:8071";
-//    private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
+    //    单机版配置
+//    private static final String REST_URL_PREFIX = "http://localhost:8071";
+    //    改成微服务访问
+    private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 
 //    private static final String REST_URL_PREFIX  = "micorservicecloud-provider-dept-8071";
 
