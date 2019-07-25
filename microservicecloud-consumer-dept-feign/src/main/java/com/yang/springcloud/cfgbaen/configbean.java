@@ -17,7 +17,7 @@ public class configbean {
     }
 
     //显式的声明负载均衡策略
-    @Bean
+//    @Bean
     public IRule MyRule(){
 //        /return new RoundRobinRule();
         return new RandomRule();

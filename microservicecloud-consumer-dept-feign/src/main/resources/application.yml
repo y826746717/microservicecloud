@@ -1,0 +1,8 @@
+server:
+  port: 80
+# Ribbon相关配置
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7081.com:7081/eureka/,http://eureka7082.com:7082/eureka/,http://eureka7083.com:7083/eureka/

@@ -11,6 +11,7 @@
         <module name="micorservicecloudproviderdept8073" />
         <module name="microservicecloudapi" />
         <module name="microservicecloudconsumerdept80" />
+        <module name="microservicecloudconsumerdeptfeign" />
         <module name="microservicecloudeureka7081" />
         <module name="microservicecloudeureka7082" />
         <module name="microservicecloudeureka7083" />
